@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 let dbConn = mysql.createConnection({
-  user: root,
+  user: 'root',
   password: null,
-  database: chatgpt2,
-  host: localhost  
+  database: 'chatgpt2',
+  host: 'localhost'  
 })
 
 dbConn.connect((err)=>{
